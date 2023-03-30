@@ -1,0 +1,16 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true,
+    "source.formatDocument": true,
+    "source.fixAll.eslint": true
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "C_Cpp.default.forcedInclude": [
+    "/Users/cyprian/.vscode/extensions/l-i-v.mql-tools-2.0.0/data/mql5_en.mqh"
+  ]
+}
