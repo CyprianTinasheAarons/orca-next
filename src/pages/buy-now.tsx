@@ -106,7 +106,6 @@ const Home: NextPage = () => {
                               action={(cntr) => cntr.erc721.claim(quantity)}
                               isDisabled={!canClaim || buttonLoading}
                               onError={(err) => {
-                                console.error(err)
                                 toast('Please Try Again Or Check Balance.', {
                                   style: {
                                     background: '#79252b',
@@ -133,7 +132,11 @@ const Home: NextPage = () => {
                               accentColor="#fff"
                               className="connect-wallet button button-primary"
                             >
-                              {buttonLoading ? 'Loading...' : buttonText}
+                              {buttonLoading ? (
+                                <p className="text-sm text-black">Loading...</p>
+                              ) : (
+                                buttonText
+                              )}
                             </Web3Button>
                           </div>
                         </>
