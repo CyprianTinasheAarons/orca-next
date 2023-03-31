@@ -7,7 +7,7 @@ export function NavigationIcons() {
   return (
     <div className="flex items-center space-x-6 align-middle">
       <a
-        href="https://opensea.io/ORCAUNITEDSOCIETY"
+        href="https://opensea.io/OrcaUnited/created"
         className="transition duration-300 transform hover:scale-110"
         target="_blank"
         rel="noreferrer"
@@ -15,7 +15,7 @@ export function NavigationIcons() {
         <img src={images.opensea.src} className="h-10" alt="" />
       </a>
       <a
-        href="https://opensea.io/OrcaUnited"
+        href="https://twitter.com/UnitedORCA"
         className="transition duration-300 transform hover:scale-110"
         target="_blank"
         rel="noreferrer"

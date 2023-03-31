@@ -107,7 +107,7 @@ const Home: NextPage = () => {
                               isDisabled={!canClaim || buttonLoading}
                               onError={(err) => {
                                 console.error(err)
-                                toast('Whoops...Something went wrong!', {
+                                toast('Please Try Again Or Check Balance.', {
                                   style: {
                                     background: '#79252b',
                                     color: 'white',
@@ -130,9 +130,8 @@ const Home: NextPage = () => {
                                   },
                                 })
                               }}
-                              colorMode="dark"
                               accentColor="#fff"
-                              className="connect-wallet"
+                              className="connect-wallet button button-primary"
                             >
                               {buttonLoading ? 'Loading...' : buttonText}
                             </Web3Button>

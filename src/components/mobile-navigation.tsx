@@ -113,7 +113,7 @@ export function MobileNavigation() {
 
             <a
               target="_blank"
-              href="https://opensea.io/OrcaUnited"
+              href="https://opensea.io/OrcaUnited/created"
               rel="noreferrer"
               className="group"
             >
