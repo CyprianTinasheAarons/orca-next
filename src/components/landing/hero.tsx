@@ -23,25 +23,26 @@ export default function Hero() {
                 variant="subHeading/bold"
                 className="tracking-wide uppercase font-display"
               >
-                Welcome to{' '}
-                <span className="uppercase text-[#FFF31C]">{`Orca`}</span>{' '}
+                Welcome to
+                <span className="uppercase text-[#FFF31C]"> {`Orca`}</span>{' '}
                 United Society
               </Text>
               <p className="font-semibold text-justify">
-                Congratulations you have decided to invest in yourself. This
-                digital collectible is the first step in your art and
-                entertainment journey. The concept is easy. Buy an ORCA and
-                attend a Masterclass provided by Actor, Producer, and all around
-                Entertainer: Columbus Short and his well qualified industry
-                insiders and friends.
+                You can now own a digital collectible that will be the stepping
+                stone to your ultimate dream! By purchasing an ORCA, you&apos;ll
+                get access to an amazing Masterclass that will be led by none
+                other than the multi-talented Actor, Producer, and all-around
+                Entertainer: Columbus Short and insider knowledge from some of
+                the industry&apos;s most qualified and respected professionals!
               </p>
               <p className="font-semibold text-justify">
-                {' '}
-                Want to become a Actor, dancer, singer, musician (Buy an ORCA
-                -attend the masterclass) Here from aspiring actors that have
-                already participated in this top level experience!{' '}
+                So, whether you want to be an Actor, Dancer, Singer, or
+                Musician, this is the opportunity of a lifetime!
               </p>
-              <p className="font-semibold text-justify">Invest in YOURSELF!</p>
+              <p className="font-semibold text-justify">
+                So come on, invest in YOURSELF! It&apos;s time to shine and make
+                your dreams come true!
+              </p>
               {!address && (
                 <Link href="/connect">
                   <Button type="button" className="hover:!-skew-y-3">
