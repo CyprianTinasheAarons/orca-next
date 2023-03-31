@@ -96,7 +96,7 @@ export function MobileNavigation() {
 
             <a
               target="_blank"
-              href="https://twitter.com/subordinals"
+              href="https://twitter.com/UnitedORCA"
               rel="noreferrer"
               className="group"
             >
@@ -113,7 +113,7 @@ export function MobileNavigation() {
 
             <a
               target="_blank"
-              href="https://opensea.io/SubOrdinals/created"
+              href="https://opensea.io/OrcaUnited"
               rel="noreferrer"
               className="group"
             >
@@ -130,7 +130,7 @@ export function MobileNavigation() {
 
             <a
               target="_blank"
-              href="https://discord.gg/4a4UNezUYW"
+              href="https://www.instagram.com/officialcshort/"
               rel="noreferrer"
               className="group"
             >
@@ -139,7 +139,7 @@ export function MobileNavigation() {
                   variant="title/bold"
                   className="mb-5 transition duration-300 transform group-hover:text-secondary"
                 >
-                  Discord
+                  Instagram
                 </Text>
                 <HL />
               </span>

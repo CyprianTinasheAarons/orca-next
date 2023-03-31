@@ -1,7 +1,7 @@
 import images from './images'
 
 export const myNftDropContractAddress =
-  '0x90bE00D47472B3781D10994bB91205127C229059'
+  '0x8458bF6dF499EBD50765582B7A2E3B295b877ccf'
 
 export const isLive = true
 

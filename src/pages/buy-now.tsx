@@ -48,9 +48,9 @@ const Home: NextPage = () => {
                   <Text variant="subHeading/bold">
                     {contractMetadata?.name}
                   </Text>
-                  <Text variant="title/normal" className="max-w-[400px]">
+                  {/* <Text variant="title/normal" className="max-w-[400px]">
                     {contractMetadata?.description}
-                  </Text>
+                  </Text> */}
                 </div>
 
                 <div className="flex flex-col items-center">

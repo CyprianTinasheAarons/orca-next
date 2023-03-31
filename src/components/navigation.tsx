@@ -15,7 +15,7 @@ export function NavigationIcons() {
         <img src={images.opensea.src} className="h-10" alt="" />
       </a>
       <a
-        href="https://twitter.com/UnitedORCA"
+        href="https://opensea.io/OrcaUnited"
         className="transition duration-300 transform hover:scale-110"
         target="_blank"
         rel="noreferrer"

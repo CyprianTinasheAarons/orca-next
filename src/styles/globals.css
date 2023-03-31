@@ -134,7 +134,7 @@ body {
 }
 
 .ocean {
-  background-image: linear-gradient(115deg, #0072ff, #00c6ff, #00c6ff, #0072ff);
+  background-image: linear-gradient(115deg, #273e5c, #a9beda, #7395c3, #2f4a6e);
   background-size: 400% 400%;
   animation: GradientWave 15s ease infinite;
 }
