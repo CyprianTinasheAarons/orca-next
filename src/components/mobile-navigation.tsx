@@ -144,6 +144,22 @@ export function MobileNavigation() {
                 <HL />
               </span>
             </a>
+            <a
+              target="_blank"
+              href="/tokengate"
+              rel="noreferrer"
+              className="group"
+            >
+              <span className="w-full">
+                <Text
+                  variant="title/bold"
+                  className="mb-5 transition duration-300 transform group-hover:text-secondary"
+                >
+                  Book A Masterclass
+                </Text>
+                <HL />
+              </span>
+            </a>
           </div>
         </Dialog.Panel>
       </Dialog>

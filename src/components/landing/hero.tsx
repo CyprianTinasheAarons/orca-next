@@ -52,11 +52,20 @@ export default function Hero() {
               )}
 
               {address && isLive && (
-                <Link href="/buy-now">
-                  <Button type="button" className="hover:!-skew-y-3">
-                    Buy Now
-                  </Button>
-                </Link>
+                <>
+                  <Link
+                    href="/tokengate"
+                    className="text-[#FFF31C] font-semibold animate-pulse italic
+                  "
+                  >
+                    Book A Masterclass
+                  </Link>
+                  <Link href="/buy-now">
+                    <Button type="button" className="hover:!-skew-y-3">
+                      Buy Now
+                    </Button>
+                  </Link>
+                </>
               )}
             </div>
 

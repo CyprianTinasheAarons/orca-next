@@ -20,6 +20,12 @@
       "~/*": ["src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/pages/tokengate.tsx",
+    "src/pages/tokengate.tsx"
+  ],
   "exclude": ["node_modules"]
 }
