@@ -13,6 +13,8 @@ export default function TokenGate() {
 
   const getToken = async () => {
     // Connect to the Ethereum network (e.g., using MetaMask)
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    //@ts-ignore
     const provider = new ethers.providers.Web3Provider(window?.ethereum)
     const signer = provider.getSigner()
 
@@ -25,6 +27,8 @@ export default function TokenGate() {
     try {
       await nftDrop?.balanceOf(address?.toString()).then((res: number) => {
         setIsLoading(false)
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        //@ts-ignore
         if (parseInt(res) > 0) {
           return null
         } else {
